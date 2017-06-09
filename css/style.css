@@ -1,0 +1,218 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+
+/*NAVBAR*/
+
+
+/*Welcome Section*/
+/*background photo*/
+
+.welcome {
+    background-image: url(../img/portada.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-mio {
+    background-color: transparent;
+    border: none;
+}
+
+.cont {
+    padding: 100px 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #41521F;
+    border-color: #41521F;
+    margin: 0 0%;
+}
+
+
+/*SECCION 2*/
+
+.section-two{
+    background-color: #fff;
+    width: 100%;
+    margin:auto;
+    padding-top: 10vh;
+}
+.section-two h1, .section-two h2{
+    color: #A89F68;
+    font-weight: 900;
+}
+
+
+/*SECCION 3*/
+
+.row img {
+    width: 76%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cosita {
+    border: solid 15px white;
+}
+
+.third {
+    background-color: #A89F68;
+    padding: 100px 0;
+    margin-bottom: 0;
+}
+
+.third .text {
+    padding-left: 93px;
+}
+
+.third .text h5 {
+    color: white;
+}
+
+.third .text h4 {
+    color: #41521F;
+}
+
+.third .text p {
+    color: white;
+}
+
+.btn-default {
+    color: white;
+    background-color: #41521F;
+    border-color: #41521F;
+}
+
+
+/**/
+/*************************parte 4*******************/
+
+header#hero {
+    background-image: url(../img/portada.jpg);
+    position: relative;
+}
+header#hero h1 {
+    font-size: 400%;
+}
+header#hero .box {
+    position: absolute;
+    width: 30%;
+    top: 35vh;
+    bottom: 35vh;
+}
+
+/* FOUNDATION */
+#foundation {
+    min-height: 100vh;
+    padding: 15vh 0;
+}
+#foundation .box {
+    padding-top: 10vh;
+}
+
+/* KOALA */
+#koalas img {
+    margin-top: 2em;
+}
+
+
+/* HELP */
+#help {
+    background-image: url(../img/all.jpg);
+    padding: 5em 0;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+}
+#help h2, #help h2 small {
+    color: #fff;
+}
+
+
+/**************seccion 6**************/
+
+/* DONAR */
+#donate {
+    padding: 5em 0;
+    color: #A89F68;
+}
+
+/* options */
+.bg-color{
+    background-color: #A89F68;
+}
+
+#donation-options .jumbotron {
+    background: transparent;
+    color: #000;
+    
+}
+#donation-options .jumbotron h1 {
+    color: #fff;
+    background-color: #A89F68;
+}
+#donation-options .jumbotron h1 {
+    font-size: 700%;
+    position: relative;
+    width: 55%;
+    margin: 0 auto;
+}
+#donation-options .jumbotron h1:before,
+#donation-options .jumbotron h1:after {
+    font-size: 25%;
+    color: #fff;
+}
+#donation-options .jumbotron h1:before {
+    content: '$';
+    position: absolute;
+    left: -15px;
+    top: 10px;
+}
+#donation-options .jumbotron h1:after {
+    content: '/ AUD';
+    position: absolute;
+    right: -50px;
+    bottom: 20px;
+}
+#donation-options .jumbotron p {
+    font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+    background-color: #41521F;
+    padding: 5em 0 2em;
+}
+footer h4 {
+    color: #A89F68;
+    font-weight: 700;
+}
+footer .signature {
+    padding: 3em 0 0;
+}
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: #fff;
+}
